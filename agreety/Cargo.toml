@@ -1,0 +1,16 @@
+[package]
+name = "agreety"
+version = "0.6.0"
+authors = ["Kenny Levinsen"]
+edition = "2018"
+license = "GPL-3.0"
+homepage = "https://kl.wtf/projects/agreety"
+repository = "https://git.sr.ht/~kennylevinsen/greetd/"
+
+[dependencies]
+greetd_ipc = { path = "../greetd_ipc", features = ["sync-codec"]}
+inish = { path = "../inish"}
+rpassword = "4.0"
+getopts = "0.2"
+enquote = "1.0.3"
+nix = "0.17"
