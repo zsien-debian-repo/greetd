@@ -1,0 +1,6 @@
+# Compulsory line, this is a version 4 file
+version=4
+
+# Direct Git
+opts="mode=git" https://git.sr.ht/~kennylevinsen/greetd \
+    refs/tags/([\d\.]+) debian uupdate

@@ -1,0 +1,12 @@
+From: zsien <i@zsien.cn>
+Date: Sun, 30 May 2021 21:27:55 +0800
+Subject: fix permission of greetd.service
+
+---
+ greetd.service | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ mode change 100755 => 100644 greetd.service
+
+diff --git a/greetd.service b/greetd.service
+old mode 100755
+new mode 100644
