@@ -1,0 +1,4 @@
+config.toml etc
+debian/pam.d/greetd etc/pam.d
+greetd.service lib/systemd/system
+target/release/greetd usr/sbin
