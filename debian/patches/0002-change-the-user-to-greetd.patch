@@ -1,0 +1,18 @@
+From: zsien <i@zsien.cn>
+Date: Mon, 23 Aug 2021 19:22:32 +0800
+Subject: change the user to greetd
+
+---
+ config.toml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.toml b/config.toml
+index 3768a6e..0eefde5 100644
+--- a/config.toml
++++ b/config.toml
+@@ -13,4 +13,4 @@ command = "agreety --cmd $SHELL"
+ # The user to run the command as. The privileges this user must have depends
+ # on the greeter. A graphical greeter may for example require the user to be
+ # in the `video` group.
+-user = "greeter"
++user = "greetd"

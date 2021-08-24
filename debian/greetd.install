@@ -1,4 +1,5 @@
 config.toml etc/greetd
+debian/needrestart/conf.d/99-greetd.conf etc/needrestart/conf.d
 debian/pam.d/greetd etc/pam.d
 greetd.service lib/systemd/system
 target/release/greetd usr/sbin

@@ -1,3 +1,11 @@
+greetd (0.7.0-2) unstable; urgency=medium
+
+  * change the user to greetd
+  * add needrestart config
+  * add dependent adduser
+
+ -- zsien <i@zsien.cn>  Tue, 24 Aug 2021 13:47:18 +0800
+
 greetd (0.7.0-1) unstable; urgency=medium
 
   * Initial release

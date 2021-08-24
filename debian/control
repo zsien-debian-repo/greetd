@@ -27,6 +27,7 @@ Description: simple, text-based greeter
 Package: greetd
 Architecture: any
 Depends:
+ adduser,
  greetd-greeter,
  ${misc:Depends},
  ${shlibs:Depends},
